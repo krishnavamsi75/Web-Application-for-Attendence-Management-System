@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>team member login</title>
+    <style>
+            body{
+                background-image:url("https://bit.ly/2KoWrC9");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100%;
+            }
+          a{
+            text-decoration: none;
+          }
+          .active{
+            background-color:#35ABF0;
+            }
+    </style>
+</head>
+
+<body>
+    <br>
+    <div class="navigation_bar" align="left">
+        <table align="right" cellspacing=10>
+            <td><a href="http://localhost:2020/attendance/home.html" title="home page">HOME</a></td>
+            <td><a href="http://localhost:2020/attendance/team_leader_login.html" target="_new" title="Team Leader login">Team Leader</a></td>
+            <td><a class="active" href="http://localhost:2020/attendance/team_member_login.html" target="_new" title="Team Member login">Team Member</a></td>
+            <td><a href="https://newerp.kluniversity.in/" title="contact for more info">Contact us</a></td>
+        </table>
+            </div>
+            <br>
+<hr color= #936E2F>
+<h1 align="center">Team member Login</h1>
+<hr color= #936E2F>
+<br>
+<form name="Team_member_login_form" method="POST" action="MemberLogin.jsp">
+    <table align="center"width=200 height=150>
+        <tr>
+            <td>USERNAME: </td>
+            <td><input type="text" name="username" id="username" placeholder="username" ></td>
+        </tr>
+
+        <tr>
+            <td>PASSWORD: </td>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input type="submit" value="submit">
+                <input type="reset" value="clear">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+            new user?<a href="http://localhost:2020/attendance/team_member_signup.html" target=""><b>sign up</b></a>
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+</body>
+
+</html>
